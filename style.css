@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(./assets/fonts/Rubik/static/Rubik-Regular.ttf);
+}
+
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    339deg,
+    rgba(2, 0, 36, 0.438) 2%,
+    rgba(9, 96, 121, 1) 52%,
+    rgba(0, 213, 255, 0.589) 80%
+  );
+}
+#text {
+  height: 250px;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.116);
+  margin: 20px !important;
+  border-radius: 5px;
+  font-size: 19px;
+  color: #fff;
+}
+#text::-webkit-scrollbar {
+  width: 5px;
+}
+#text::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 50px;
+}
+#text::-webkit-scrollbar-thumb {
+  background: rgba(9, 96, 121, 1) 52%;
+  border-radius: 50px;
+}
+#text::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+h1 {
+  color: #fff !important;
+}
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+.main {
+  height: 580px;
+  padding: 30px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 400px;
+  background-color: #ffffff1c;
+}
+
+input {
+  margin: 10px auto !important;
+  background: none;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  width: 90%;
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+}
+button {
+  border: none;
+  padding: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    10deg,
+    rgba(2, 0, 36, 0.438) 2%,
+    rgba(9, 96, 121, 1) 52%,
+    rgba(0, 213, 255, 0.589) 80%
+  );
+  width: 90%;
+  color: #fff;
+  font-size: 20px !important;
+  border-radius: 50px !important;
+  color: #fff;
+}
+::placeholder {
+  color: #ffffff54;
+}
